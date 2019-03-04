@@ -55,7 +55,7 @@ public class CountriesSmsPrice
 			public String toString()
 			{
 				NumberFormat bf = NumberFormat.getInstance(Locale.FRENCH);
-				bf.setMaximumFractionDigits(4);
+				//bf.setMaximumFractionDigits(4);
 				return 
 						"total price: " + bf.format(this.totalPrice) + "\n"
 						+ "total sms: " + bf.format(this.totalSms) 
@@ -96,7 +96,10 @@ public class CountriesSmsPrice
 				}*/
 				return ;				
 			}
-			c.smsPrice = Double.parseDouble(line.get(6).replace(',', '.'));
+			c.smsPrice = Double.parseDouble(
+					line.get(6)
+					.replace(',', '.')
+			);
 		});
 	}
 
