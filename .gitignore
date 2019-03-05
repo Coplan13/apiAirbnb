@@ -1,6 +1,13 @@
+# build path
 **/bin/
+
+# Eclipse IDE
 **/.classpath
 **/.project
 **/.settings/
 .metadata
+
+# Some softwares temporary files.
+.~lock*
+
 
