@@ -9,5 +9,5 @@
 
 # Some softwares temporary files.
 .~lock*
-
+**/.DS_Store
 
