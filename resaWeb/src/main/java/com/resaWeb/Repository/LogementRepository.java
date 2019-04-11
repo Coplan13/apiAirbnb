@@ -1,9 +1,10 @@
 package com.resaWeb.Repository;
 
+import com.resaWeb.Business.logements.Logement;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-import pbardu.resaBusiness.logements.Logement;
+
 
 import java.util.List;
 import java.util.Optional;

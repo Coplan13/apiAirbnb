@@ -1,10 +1,11 @@
 package com.resaWeb.Services;
 
+import com.resaWeb.Business.utilisateurs.Voyageur;
 import com.resaWeb.Repository.VoyageurRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import pbardu.resaBusiness.utilisateurs.Voyageur;
+
 
 import java.util.List;
 import java.util.Optional;

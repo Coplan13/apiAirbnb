@@ -1,5 +1,6 @@
 package com.resaWeb.Controller;
 
+import com.resaWeb.Business.logements.Maison;
 import com.resaWeb.Services.MaisonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -7,7 +8,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pbardu.resaBusiness.logements.Maison;
 
 import java.util.List;
 

@@ -1,9 +1,10 @@
 package com.resaWeb.Repository;
 
+import com.resaWeb.Business.reservations.Reservation;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-import pbardu.resaBusiness.reservations.Reservation;
+
 
 import java.util.List;
 

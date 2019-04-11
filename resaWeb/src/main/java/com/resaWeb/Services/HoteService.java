@@ -1,10 +1,10 @@
 package com.resaWeb.Services;
 
+import com.resaWeb.Business.utilisateurs.Hote;
 import com.resaWeb.Repository.HoteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import pbardu.resaBusiness.utilisateurs.Hote;
 
 import java.util.List;
 import java.util.Optional;
