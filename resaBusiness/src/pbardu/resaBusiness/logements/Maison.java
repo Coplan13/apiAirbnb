@@ -2,10 +2,19 @@ package pbardu.resaBusiness.logements;
 
 import pbardu.resaBusiness.utilisateurs.Hote;
 
+import javax.persistence.*;
+
+
+@Entity
+@Table(name = "maison")
 public final class Maison extends Logement {
 
-	private final int superficieJardin;
-	private final boolean possedePiscine;
+	@Column(name= "superficie_Jardin")
+	private int superficieJardin;
+
+	@Column(name= "possede_piscine")
+	private boolean possedePiscine;
+
 
 	public Maison(Hote hote, int tarifParNuit, String adresse, int superficie, int nbVoyageursMax, int superficieJardin, boolean possedePiscine) {
 		super(hote, tarifParNuit, adresse, superficie, nbVoyageursMax);
@@ -14,6 +23,8 @@ public final class Maison extends Logement {
 		this.possedePiscine = possedePiscine;
 	}
 
+	protected Maison() {
+	}
 
 	@Override
 	public void afficher() {

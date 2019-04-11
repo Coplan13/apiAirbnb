@@ -4,11 +4,24 @@ import java.util.Date;
 
 import pbardu.resaBusiness.logements.Logement;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Sejourlong")
 public class SejourLong extends Sejour implements ConditionsTarifairesInterface {
 
-	private static final int PROMOTION_EN_POURCENTAGE = 20;
+
+
+	private int PROMOTION_EN_POURCENTAGE = 20;
 	private int promotion;
+
+	@Column(name="tarif", nullable=false)
 	private int tarif;
+
+	public SejourLong() {
+	}
 
 	public SejourLong(Date dateArrivee, Logement logement, int nbNuits, int nbVoyageurs) {
 		super(dateArrivee, logement, nbNuits, nbVoyageurs);

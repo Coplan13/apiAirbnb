@@ -6,12 +6,31 @@ import java.util.Date;
 import java.util.Locale;
 
 import pbardu.resaBusiness.logements.Logement;
+import pbardu.resaBusiness.utilisateurs.Hote;
 
+import javax.persistence.*;
+
+@Entity
+@Inheritance(strategy = InheritanceType.JOINED)
+@Table(name = "sejour")
 public abstract class Sejour implements SejourInterface, Cloneable {
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private long id;
+
+	@ManyToOne
+	@JoinColumn(name = "id_logement")
 	private Logement logement;
+
+
+	@Column(name="date_arrivee", nullable=false)
 	private Date dateArrivee;
+
+	@Column(name="nb_nuits", nullable=false)
 	private int nbNuits;
+
+	@Column(name="nb_voyageurs", nullable=false)
 	private int nbVoyageurs;
 
 	public Sejour(Date dateArrivee, Logement logement, int nbNuits, int nbVoyageurs) {
@@ -20,6 +39,9 @@ public abstract class Sejour implements SejourInterface, Cloneable {
 		this.dateArrivee = dateArrivee;
 		this.nbNuits = nbNuits;
 		this.nbVoyageurs = nbVoyageurs;
+	}
+
+	protected Sejour() {
 	}
 
 	public abstract void afficher();

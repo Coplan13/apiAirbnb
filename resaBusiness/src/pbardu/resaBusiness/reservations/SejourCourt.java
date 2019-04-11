@@ -4,8 +4,16 @@ import java.util.Date;
 
 import pbardu.resaBusiness.logements.Logement;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "SejourCourt")
 public class SejourCourt extends Sejour implements ConditionsTarifairesInterface {
 
+
+	@Column(name= "tarif")
 	private int tarif;
 
 	public SejourCourt(Date dateArrivee, Logement logement, int nbNuits, int nbVoyageurs) {

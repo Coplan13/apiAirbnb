@@ -1,9 +1,19 @@
 package pbardu.resaBusiness.utilisateurs;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "voyageur")
 public final class Voyageur extends Personne {
 
-	public Voyageur(String pNom, String pPrenom, int pAge) {
-		super(pNom, pPrenom, pAge);
+	@Id
+	@GeneratedValue(strategy= GenerationType.IDENTITY)
+	private long id;
+
+	protected Voyageur() {}
+
+	public Voyageur(String pNom, String pPrenom, int pAge, String mdp, String email) {
+		super(pNom, pPrenom, pAge, mdp, email);
 	}
 
 }

@@ -2,14 +2,23 @@ package pbardu.resaBusiness.logements;
 
 import pbardu.resaBusiness.utilisateurs.Hote;
 
-public final class Appartement extends Logement{
+import javax.persistence.*;
 
-	private final int superficieBalcon;
-	private final int numeroEtage;
+@Entity
+@Table(name = "appartement")
+public class Appartement extends Logement{
+
+	@Column(name= "suerficie_balcon")
+	private int superficieBalcon;
+
+	@Column(name= "numero_etage")
+	private int numeroEtage;
 
 	public int getNumeroEtage() {
 		return numeroEtage;
 	}
+
+	public Appartement() {}
 
 	public Appartement(Hote hote, int tarifParNuit, String adresse, int superficie, int nbVoyageursMax,
 					   int superficieBalcon, int numeroEtage) {
@@ -45,4 +54,5 @@ public final class Appartement extends Logement{
 	public int getSuperficieBalcon() {
 		return superficieBalcon;
 	}
+
 }

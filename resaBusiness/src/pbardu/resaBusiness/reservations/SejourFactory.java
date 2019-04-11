@@ -2,6 +2,7 @@ package pbardu.resaBusiness.reservations;
 
 import java.util.Date;
 
+import pbardu.resaBusiness.logements.Appartement;
 import pbardu.resaBusiness.logements.Logement;
 
 public class SejourFactory {
@@ -18,4 +19,5 @@ public class SejourFactory {
 
         return sejour;
     }
+
 }

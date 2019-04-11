@@ -4,13 +4,32 @@ import java.util.Date;
 
 import pbardu.resaBusiness.utilisateurs.Voyageur;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "reservation")
 public class Reservation implements Cloneable {
 
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
+
+	@ManyToOne
+	@JoinColumn(name = "id_sejour")
 	private Sejour sejour;
+
+	@ManyToOne
+	@JoinColumn(name = "id_voyageur")
 	private Voyageur voyageur;
+
+	@Column(name="date_resrvation", nullable=false)
 	private Date dateDeReservation;
+
+	@Column(name="validation", nullable=false)
 	private boolean estValidee;
+
+	protected Reservation() {
+	}
 
 	public Reservation(Sejour sejour, Voyageur voyageur) {
 

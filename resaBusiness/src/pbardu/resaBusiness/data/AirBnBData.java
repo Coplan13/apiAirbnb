@@ -26,17 +26,17 @@ public final class AirBnBData {
         listReservations = new ArrayList<>();
 
         // Hotes
-        hotes.add(new Hote("Bardu", "Peter", 30, 12));
-        hotes.add(new Hote("Bardu", "Tom", 34, 12));
-        hotes.add(new Hote("Albert", "Max", 33, 24));
-        hotes.add(new Hote("Blue", "Jeremy", 22, 6));
-        hotes.add(new Hote("Comant", "Justine", 78, 48));
+        hotes.add(new Hote("Bardu", "Peter", 30,"admin","admin.admin@gmail.com", 12));
+        hotes.add(new Hote("Bardu", "Tom", 34,"admin","admin.admin@gmail.com", 12));
+        hotes.add(new Hote("Albert", "Max", 33,"admin","admin.admin@gmail.com", 24));
+        hotes.add(new Hote("Blue", "Jeremy", 22,"admin","admin.admin@gmail.com", 6));
+        hotes.add(new Hote("Comant", "Justine", 78,"admin","admin.admin@gmail.com", 48));
 
 
         // Voyageurs
-        voyageurs.add(new Voyageur("Albert", "Jean", 21));
-        voyageurs.add(new Voyageur("Robert", "Marc", 32));
-        voyageurs.add(new Voyageur("JEan", "Jean", 37));
+        voyageurs.add(new Voyageur("Albert", "Jean", 21,"admin","admin.admin@gmail.com"));
+        voyageurs.add(new Voyageur("Robert", "Marc", 32,"admin","admin.admin@gmail.com"));
+        voyageurs.add(new Voyageur("JEan", "Jean", 37,"admin","admin.admin@gmail.com"));
 
         // Logements
         logements.add(new Maison(hotes.get(0), 100, "82 rue Colbert, 37000 Tours", 100, 4, 1000, true));

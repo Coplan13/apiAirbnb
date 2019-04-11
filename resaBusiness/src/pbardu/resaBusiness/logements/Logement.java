@@ -2,16 +2,41 @@ package pbardu.resaBusiness.logements;
 
 import pbardu.resaBusiness.utilisateurs.Hote;
 
+import javax.persistence.*;
+
+@Entity
+@Inheritance(strategy = InheritanceType.JOINED)
+@Table(name = "logement")
 public abstract class Logement {
+
+
+	@Id
+	@GeneratedValue(strategy= GenerationType.AUTO)
+	private long id;
+
+	@ManyToOne
+	@JoinColumn(name = "hote_id")
+	private  Hote hote;
+
+	@Column(name="tarif", nullable=false)
+	private  int tarifParNuit;
+
+	@Column(name="adresse", nullable=false)
+	private  String adresse;
+
+	@Column(name="superficie", length=40)
+	private  int superficie;
+
+	@Column(name="nb_voyageur_max", length=40)
+	private  int nbVoyageursMax;
+
+
+	private  int index;
 
 	private static int cpt = 0;
 
-	private final Hote hote;
-	private final int tarifParNuit;
-	private final String adresse;
-	private final int superficie;
-	private final int nbVoyageursMax;
-	private final int index;
+	protected Logement() {
+	}
 
 	public int getIndex() {
 		return index;
