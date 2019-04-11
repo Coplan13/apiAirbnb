@@ -1,12 +1,13 @@
 package com.resaWeb.Controller;
 
+import com.resaWeb.Business.logements.Logement;
 import com.resaWeb.Services.LogementService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import pbardu.resaBusiness.logements.Logement;
+
 
 import java.util.List;
 

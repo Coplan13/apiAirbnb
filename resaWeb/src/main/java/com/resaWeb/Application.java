@@ -2,6 +2,14 @@ package com.resaWeb;
 
 
 
+import com.resaWeb.Business.logements.Appartement;
+import com.resaWeb.Business.logements.AppartementDao;
+import com.resaWeb.Business.logements.Maison;
+import com.resaWeb.Business.reservations.Reservation;
+import com.resaWeb.Business.reservations.Sejour;
+import com.resaWeb.Business.reservations.SejourFactory;
+import com.resaWeb.Business.utilisateurs.Hote;
+import com.resaWeb.Business.utilisateurs.Voyageur;
 import com.resaWeb.Repository.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -11,21 +19,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
-import pbardu.resaBusiness.logements.Appartement;
-import pbardu.resaBusiness.logements.AppartementDao;
-import pbardu.resaBusiness.logements.Maison;
-import pbardu.resaBusiness.reservations.Reservation;
-import pbardu.resaBusiness.reservations.Sejour;
-import pbardu.resaBusiness.reservations.SejourFactory;
-import pbardu.resaBusiness.utilisateurs.Hote;
-import pbardu.resaBusiness.utilisateurs.Voyageur;
 
 import java.util.Date;
 import java.util.List;
 
 
 @SpringBootApplication
-@EntityScan("pbardu")
 public class Application {
 
     private static final Logger log = LoggerFactory.getLogger(Application.class);

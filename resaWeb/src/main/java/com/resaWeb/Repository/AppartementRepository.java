@@ -1,10 +1,11 @@
 package com.resaWeb.Repository;
 
-import org.springframework.data.jpa.repository.JpaRepository;
-import pbardu.resaBusiness.logements.Appartement;
-import pbardu.resaBusiness.logements.AppartementDao;
 
-import java.util.List;
+
+import com.resaWeb.Business.logements.Appartement;
+import com.resaWeb.Business.logements.AppartementDao;
+import org.springframework.data.jpa.repository.JpaRepository;
+
 
 public interface AppartementRepository extends JpaRepository<Appartement, Long>, AppartementDao {
 

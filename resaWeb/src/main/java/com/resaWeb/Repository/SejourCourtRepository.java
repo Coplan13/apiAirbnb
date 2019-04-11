@@ -1,7 +1,8 @@
 package com.resaWeb.Repository;
 
+import com.resaWeb.Business.reservations.SejourCourt;
 import org.springframework.data.jpa.repository.JpaRepository;
-import pbardu.resaBusiness.reservations.SejourCourt;
+
 
 public interface SejourCourtRepository extends JpaRepository<SejourCourt, Long> {
 }

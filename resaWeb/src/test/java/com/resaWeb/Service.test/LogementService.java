@@ -3,6 +3,9 @@ package com.resaWeb.Service.test;
 
 //import com.resaWeb.Repository.LogementRepository;
 
+import com.resaWeb.Business.logements.Logement;
+import com.resaWeb.Business.reservations.Reservation;
+import com.resaWeb.Business.reservations.Sejour;
 import com.resaWeb.Repository.HoteRepository;
 import com.resaWeb.Repository.LogementRepository;
 import com.resaWeb.Repository.ReservationRepository;
@@ -23,10 +26,7 @@ import org.springframework.test.annotation.Rollback;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.context.junit4.SpringRunner;
-import pbardu.resaBusiness.logements.Logement;
-import pbardu.resaBusiness.reservations.Reservation;
-import pbardu.resaBusiness.reservations.Sejour;
-import pbardu.resaBusiness.utilisateurs.Hote;
+
 
 import javax.transaction.Transactional;
 import java.util.List;

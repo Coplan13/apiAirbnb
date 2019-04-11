@@ -4,12 +4,11 @@ package com.resaWeb.Repository;
 import java.util.List;
 
 
+import com.resaWeb.Business.utilisateurs.Hote;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-import pbardu.resaBusiness.logements.Logement;
-import pbardu.resaBusiness.utilisateurs.Hote;
-import pbardu.resaBusiness.utilisateurs.Personne;
+
 
 public interface HoteRepository extends JpaRepository<Hote, Long> {
 

@@ -1,10 +1,11 @@
 package com.resaWeb.Services;
 
+import com.resaWeb.Business.logements.Maison;
 import com.resaWeb.Repository.MaisonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import pbardu.resaBusiness.logements.Maison;
+
 
 import java.util.List;
 import java.util.Optional;
