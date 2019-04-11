@@ -25,7 +25,6 @@ import java.util.List;
 
 
 @SpringBootApplication
-@EntityScan("pbardu")
 public class Application {
 
     private static final Logger log = LoggerFactory.getLogger(Application.class);

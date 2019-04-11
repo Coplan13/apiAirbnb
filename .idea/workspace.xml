@@ -2,48 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d7cc6e5-2909-4ec8-b077-bc89609d59df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/data/AirBnBData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/data/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/logements/Appartement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/logements/AppartementDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/logements/Logement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/logements/Maison.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/reservations/ConditionsTarifairesInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/reservations/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/reservations/Sejour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/reservations/SejourCourt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/reservations/SejourFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/reservations/SejourInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/reservations/SejourLong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/utilisateurs/Hote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/utilisateurs/Personne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/utilisateurs/Voyageur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/resaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/resaWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Controller/AppartementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Controller/AppartementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Controller/HoteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Controller/HoteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Controller/LogementController.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Controller/LogementController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Controller/MaisonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Controller/MaisonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Controller/SejourController.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Controller/SejourController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Controller/VoyageurController.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Controller/VoyageurController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/AppartementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/AppartementRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/HoteRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/HoteRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/LogementRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/LogementRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/MaisonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/MaisonRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/ReservationRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/ReservationRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/SejourCourtRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/SejourCourtRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/SejourLongRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/SejourLongRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/SejourRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/SejourRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/VoyageurRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/VoyageurRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/AppartementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/AppartementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/HoteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/HoteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/LogementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/LogementService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/MaisonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/MaisonService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/SejourService.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/SejourService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/VoyageurService.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/VoyageurService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resaWeb/src/test/java/com/resaWeb/Service.test/LogementService.java" beforeDir="false" afterPath="$PROJECT_DIR$/resaWeb/src/test/java/com/resaWeb/Service.test/LogementService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/resaWeb/target/" />
@@ -57,22 +17,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/SejourLongRepository.java">
+        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="322">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/SejourRepository.java">
+        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/data/AirBnBData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+              <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,10 +38,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/VoyageurRepository.java">
+        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/data/Search.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="543">
+              <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5732#5733#0" expanded="true" />
+                <element signature="e#5779#5780#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/reservations/SejourInterface.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/utilisateurs/Personne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/reservations/ConditionsTarifairesInterface.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resaWeb/src/test/java/com/resaWeb/Service.test/LogementService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="917">
+              <caret line="68" column="21" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,10 +91,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/AppartementService.java">
+        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/logements/Appartement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+            <state relative-caret-position="136">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,72 +103,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/LogementService.java">
+        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/logements/AppartementDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/MaisonService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/SejourService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/VoyageurService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/data/Search.java">
+        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/AppartementRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2941">
-              <caret line="173" column="3" selection-start-line="173" selection-start-column="3" selection-end-line="173" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/HoteService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="153">
+              <caret line="9" column="97" lean-forward="true" selection-start-line="9" selection-start-column="97" selection-end-line="9" selection-end-column="97" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -214,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resaBusiness/src/pbardu/resaBusiness/logements/Appartement.java" />
         <option value="$PROJECT_DIR$/resaWeb/src/main/resources/templates/home.html" />
         <option value="$PROJECT_DIR$/resaWeb/src/main/resources/templates/hote.html" />
         <option value="$PROJECT_DIR$/resaWeb/src/main/resources/templates/all.hml.html" />
@@ -228,13 +172,11 @@
         <option value="$PROJECT_DIR$/resaWeb/src/main/resources/templates/Logements.html" />
         <option value="$PROJECT_DIR$/resaBusiness/src/pbardu/resaBusiness/reservations/Reservation.java" />
         <option value="$PROJECT_DIR$/resaBusiness/src/pbardu/resaBusiness/logements/Logement.java" />
-        <option value="$PROJECT_DIR$/resaWeb/src/test/java/com/resaWeb/Service.test/LogementService.java" />
         <option value="$PROJECT_DIR$/resaWeb/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/resaBusiness/src/pbardu/resaBusiness/utilisateurs/Voyageur.java" />
         <option value="$PROJECT_DIR$/resaBusiness/src/pbardu/resaBusiness/utilisateurs/Hote.java" />
         <option value="$PROJECT_DIR$/resaBusiness/src/pbardu/resaBusiness/data/AirBnBData.java" />
         <option value="$PROJECT_DIR$/resaBusiness/src/pbardu/resaBusiness/utilisateurs/Personne.java" />
-        <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Application.java" />
         <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/logements/Logement.java" />
         <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/logements/Maison.java" />
         <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/reservations/Reservation.java" />
@@ -249,7 +191,6 @@
         <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Controller/MaisonController.java" />
         <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Controller/SejourController.java" />
         <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Controller/VoyageurController.java" />
-        <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/AppartementRepository.java" />
         <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/HoteRepository.java" />
         <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/LogementRepository.java" />
         <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/MaisonRepository.java" />
@@ -264,7 +205,11 @@
         <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/MaisonService.java" />
         <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/SejourService.java" />
         <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Services/VoyageurService.java" />
+        <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Application.java" />
+        <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/data/AirBnBData.java" />
         <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/data/Search.java" />
+        <option value="$PROJECT_DIR$/resaWeb/src/test/java/com/resaWeb/Service.test/LogementService.java" />
+        <option value="$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/AppartementRepository.java" />
       </list>
     </option>
   </component>
@@ -364,6 +309,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="resaWeb" type="462c0819:PsiDirectoryNode" />
               <item name="Business" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="apiAirbnb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="resaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resaWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="Business" type="462c0819:PsiDirectoryNode" />
               <item name="logements" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -393,6 +348,10 @@
               <item name="resaWeb" type="462c0819:PsiDirectoryNode" />
               <item name="Services" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="apiAirbnb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -401,7 +360,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554972570555" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554973117956" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -552,7 +511,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554971604521</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="resaBusiness">
+      <created>1554972575434</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554972575434</updated>
+    </task>
+    <task id="LOCAL-00004" summary="resaBusiness">
+      <created>1554972590590</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1554972590590</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -598,6 +571,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.27181688" />
       <window_info id="Structure" order="1" sideWeight="0.502008" side_tool="true" weight="0.20314735" />
@@ -658,32 +632,19 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
   </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ajout pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout pom.xml" />
+    <MESSAGE value="resaBusiness" />
+    <option name="LAST_COMMIT_MESSAGE" value="resaBusiness" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resaBusiness/src/pbardu/resaBusiness/logements/Appartement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resaBusiness/src/pbardu/resaBusiness/logements/AppartementDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resaBusiness/.classpath" />
     <entry file="file://$PROJECT_DIR$/resaBusiness/src/pbardu/resaBusiness/utilisateurs/Hote.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -740,16 +701,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resaBusiness/src/pbardu/resaBusiness/utilisateurs/Personne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
@@ -781,13 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/reservations/ConditionsTarifairesInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -831,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/reservations/SejourInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/reservations/SejourLong.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
@@ -855,27 +792,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/utilisateurs/Personne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/utilisateurs/Voyageur.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/logements/Appartement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -896,13 +816,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/logements/AppartementDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -960,16 +873,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/AppartementRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="90" selection-start-line="10" selection-start-column="90" selection-end-line="10" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1118,10 +1021,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/data/AirBnBData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/data/Search.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2941">
-          <caret line="173" column="3" selection-start-line="173" selection-start-column="3" selection-end-line="173" selection-end-column="3" />
+        <state relative-caret-position="543">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5732#5733#0" expanded="true" />
+            <element signature="e#5779#5780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/reservations/SejourInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/utilisateurs/Personne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/reservations/ConditionsTarifairesInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resaWeb/src/test/java/com/resaWeb/Service.test/LogementService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="917">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/logements/AppartementDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Business/logements/Appartement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resaWeb/src/main/java/com/resaWeb/Repository/AppartementRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="97" lean-forward="true" selection-start-line="9" selection-start-column="97" selection-end-line="9" selection-end-column="97" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
